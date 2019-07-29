@@ -48,6 +48,8 @@ p{
 
 .logosocial{
     opacity: 0.7;
+    width:24px;
+    height:24px;
 }
 
 .textmenu-name{
@@ -79,6 +81,12 @@ p{
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+.sidepanel ul{
+    margin-top: 50px;
+}
+.logo-container ul{
+    margin-top: 150px
 }
 
 span{
@@ -146,7 +154,7 @@ span a:hover{
 }
 .app-screenshot-wide{
     min-width: 35%;
-    max-width: 60%;
+    max-width: 58%;
 }
 
 @keyframes fontlinkcolor {
@@ -193,6 +201,14 @@ span a:hover{
         grid-template-rows: auto auto auto;
         grid-column-gap: 10px;
         grid-row-gap: 0px;
+    }
+
+    .sidepanel ul, .logo-container ul{
+        margin-top: 0px;
+    }
+    .logo-container{
+        width: 300px;
+        margin: auto;
     }
 
     .fimagecontainer{
